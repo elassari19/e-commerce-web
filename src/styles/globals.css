@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --default: #fff;
+  --primary: #0f0;
+  --secondary: #0f08;
+}
+
+@layer components {
+  .brand-default {
+    @apply bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text font-extrabold text-transparent;
+  }
+  .brand-primary {
+    @apply bg-gradient-to-r from-green-400 to-red-600 bg-clip-text font-extrabold text-transparent;
+  }
+  .brand-secondary {
+    @apply bg-gradient-to-r from-red-400 to-gray-600 bg-clip-text font-extrabold text-transparent;
+  }
+}
