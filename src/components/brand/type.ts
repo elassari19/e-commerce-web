@@ -16,5 +16,5 @@ export enum size {
 
 export type Props = {
   variant?: variant;
-  size: size;
+  size?: size;
 };
